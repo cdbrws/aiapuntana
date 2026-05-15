@@ -1,0 +1,23 @@
+{
+  "name": "aia-core-san-luis",
+  "version": "0.1.0",
+  "description": "AIA Core: Motor conversacional local reutilizable para apps, turismo, comercios y experiencias de San Luis",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "fuse.js": "^7.0.0",
+    "minisearch": "^6.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0"
+  }
+}
